@@ -1,0 +1,2988 @@
+1
+0:00:00,000 -->  0:00:02,000
+ I
+
+2
+0:00:02,000 -->  0:00:04,000
+ you
+
+3
+0:00:04,000 -->  0:00:06,000
+ So the arrays
+
+4
+0:00:06,000 -->  0:00:08,000
+ and as we
+
+5
+0:00:08,000 -->  0:00:10,000
+ I referred to him in
+
+6
+0:00:10,000 -->  0:00:12,000
+ in Mathematica or the Wolfram language.
+
+7
+0:00:12,000 -->  0:00:14,000
+ which is basically a regular
+
+8
+0:00:14,000 -->  0:00:16,000
+ arrangement of data that has a depth D
+
+9
+0:00:16,000 -->  0:00:18,000
+ with dimensions of length d
+
+10
+0:00:18,000 -->  0:00:20,000
+ and such that each element of the data can
+
+11
+0:00:20,000 -->  0:00:22,000
+ be accessed by part indices.
+
+12
+0:00:22,000 -->  0:00:24,000
+ And this is sort of the fundamental
+
+13
+0:00:24,000 -->  0:00:26,000
+ contract that we have
+
+14
+0:00:26,000 -->  0:00:28,000
+ for an array.
+
+15
+0:00:28,000 -->  0:00:30,000
+ vectors, matrices.
+
+16
+0:00:30,000 -->  0:00:32,000
+ and higher-ranked tensors.
+
+17
+0:00:32,000 -->  0:00:34,000
+ So
+
+18
+0:00:34,000 -->  0:00:36,000
+ in Wolfram
+
+19
+0:00:36,000 -->  0:00:38,000
+ For some array A, we have
+
+20
+0:00:38,000 -->  0:00:40,000
+ The array depth gives the depth.
+
+21
+0:00:40,000 -->  0:00:42,000
+ be the dimensions
+
+22
+0:00:42,000 -->  0:00:44,000
+ gives the dimensions. Um,
+
+23
+0:00:44,000 -->  0:00:46,000
+ and
+
+24
+0:00:46,000 -->  0:00:48,000
+ the part, as long as you have B part,
+
+25
+0:00:48,000 -->  0:00:50,000
+ will give an element of
+
+26
+0:00:50,000 -->  0:00:52,000
+ of the array. So let's take
+
+27
+0:00:52,000 -->  0:00:54,000
+ Let's take some examples.
+
+28
+0:00:54,000 -->  0:00:56,000
+ So several
+
+29
+0:00:56,000 -->  0:00:58,000
+ So a basic test for an array.
+
+30
+0:00:58,000 -->  0:01:00,000
+ And this is going to be useful
+
+31
+0:01:00,000 -->  0:01:02,000
+ and a lot of functions you
+
+32
+0:01:02,000 -->  0:01:04,000
+ right is whether
+
+33
+0:01:04,000 -->  0:01:06,000
+ it's a Ray Q and it's either going to
+
+34
+0:01:06,000 -->  0:01:08,000
+ be true or false.
+
+35
+0:01:08,000 -->  0:01:10,000
+ a Q function will be true or false.
+
+36
+0:01:10,000 -->  0:01:12,000
+ And then we can also do
+
+37
+0:01:12,000 -->  0:01:14,000
+ the dimensions of those.
+
+38
+0:01:14,000 -->  0:01:16,000
+ dimensions of this first expression,
+
+39
+0:01:16,000 -->  0:01:18,000
+ or just two because
+
+40
+0:01:18,000 -->  0:01:20,000
+ the last level is not consistent.
+
+41
+0:01:20,000 -->  0:01:22,000
+ And here the level is consistent in
+
+42
+0:01:22,000 -->  0:01:24,000
+ length and size.
+
+43
+0:01:24,000 -->  0:01:26,000
+ So dimensions of expectations.
+
+44
+0:01:26,000 -->  0:01:28,000
+ for two, I get that three-level...
+
+45
+0:01:28,000 -->  0:01:30,000
+ level.
+
+46
+0:01:30,000 -->  0:01:32,000
+ sort of the, that's kind of the idea
+
+47
+0:01:32,000 -->  0:01:34,000
+ a difference between something that's an array
+
+48
+0:01:34,000 -->  0:01:36,000
+ and something that's not an array.
+
+49
+0:01:36,000 -->  0:01:38,000
+ to
+
+50
+0:01:38,000 -->  0:01:40,000
+ So in that second X for everything,
+
+51
+0:01:40,000 -->  0:01:42,000
+ everything is accessible by a part
+
+52
+0:01:42,000 -->  0:01:44,000
+ with two indices.
+
+53
+0:01:44,000 -->  0:01:46,000
+ So I can do that.
+
+54
+0:01:46,000 -->  0:01:48,000
+ Parts just have to be bound by the dimensions.
+
+55
+0:01:48,000 -->  0:01:50,000
+ and that part will always
+
+56
+0:01:50,000 -->  0:01:52,000
+ always work.
+
+57
+0:01:52,000 -->  0:01:54,000
+ You can also test a rate
+
+58
+0:01:54,000 -->  0:01:56,000
+ is a little more useful and you can test
+
+59
+0:01:56,000 -->  0:01:58,000
+ the elements, you know, an element at a
+
+60
+0:01:58,000 -->  0:02:00,000
+ So you can test whether they're all integer
+
+61
+0:02:00,000 -->  0:02:02,000
+ The answer is true.
+
+62
+0:02:02,000 -->  0:02:04,000
+ You can test it.
+
+63
+0:02:04,000 -->  0:02:06,000
+ the depth, the second argument here
+
+64
+0:02:06,000 -->  0:02:08,000
+ which I had as a pattern,
+
+65
+0:02:08,000 -->  0:02:10,000
+ be the depth and
+
+66
+0:02:10,000 -->  0:02:12,000
+ So this is testing basically it's a,
+
+67
+0:02:12,000 -->  0:02:14,000
+ a matrix and vector Q
+
+68
+0:02:14,000 -->  0:02:16,000
+ and MatrixQ are actually
+
+69
+0:02:16,000 -->  0:02:18,000
+ just, they're the same as a Reikyu, but
+
+70
+0:02:18,000 -->  0:02:20,000
+ they just have specific depths, you
+
+71
+0:02:20,000 -->  0:02:22,000
+ coded in explicitly.
+
+72
+0:02:22,000 -->  0:02:24,000
+ sort of syntactic sugar, really.
+
+73
+0:02:24,000 -->  0:02:26,000
+ matrix queue. Now,
+
+74
+0:02:26,000 -->  0:02:28,000
+ Here's the tricky thing about
+
+75
+0:02:28,000 -->  0:02:30,000
+ what you consider a ray.
+
+76
+0:02:30,000 -->  0:02:32,000
+ because here I'm considering elements
+
+77
+0:02:32,000 -->  0:02:34,000
+ like fundamental type.
+
+78
+0:02:34,000 -->  0:02:36,000
+ namely, you know, integers,
+
+79
+0:02:36,000 -->  0:02:38,000
+ or reels or, you know,
+
+80
+0:02:38,000 -->  0:02:40,000
+ what are typically considered scalar.
+
+81
+0:02:40,000 -->  0:02:42,000
+ But you can actually trick a Ray-Q.
+
+82
+0:02:42,000 -->  0:02:44,000
+ and say, okay, I want, I want
+
+83
+0:02:44,000 -->  0:02:46,000
+ want to test
+
+84
+0:02:46,000 -->  0:02:48,000
+ whether that expression one is in
+
+85
+0:02:48,000 -->  0:02:50,000
+ array of depth one
+
+86
+0:02:50,000 -->  0:02:52,000
+ with anything,
+
+87
+0:02:52,000 -->  0:02:54,000
+ to be an element, okay?
+
+88
+0:02:54,000 -->  0:02:56,000
+ And the answer is true.
+
+89
+0:02:56,000 -->  0:02:58,000
+ Um, or,
+
+90
+0:02:58,000 -->  0:03:00,000
+ another test I could do
+
+91
+0:03:00,000 -->  0:03:02,000
+ is that I could say, okay, I want
+
+92
+0:03:02,000 -->  0:03:04,000
+ want it to be a depth of one.
+
+93
+0:03:04,000 -->  0:03:06,000
+ but I want the elements to be
+
+94
+0:03:06,000 -->  0:03:08,000
+ lists
+
+95
+0:03:08,000 -->  0:03:10,000
+ of integers which are positive.
+
+96
+0:03:10,000 -->  0:03:12,000
+ Okay. Of any length.
+
+97
+0:03:12,000 -->  0:03:14,000
+ And that's another test you can read.
+
+98
+0:03:14,000 -->  0:03:16,000
+ So you can actually have list type
+
+99
+0:03:16,000 -->  0:03:18,000
+ or array type elements
+
+100
+0:03:18,000 -->  0:03:20,000
+ of arrays themselves.
+
+101
+0:03:20,000 -->  0:03:22,000
+ as long as you put in the test correctly.
+
+102
+0:03:22,000 -->  0:03:24,000
+ So sometimes that's,
+
+103
+0:03:24,000 -->  0:03:26,000
+ So if you have an array, you know,
+
+104
+0:03:26,000 -->  0:03:28,000
+ which is mostly an array, but the last level
+
+105
+0:03:28,000 -->  0:03:30,000
+ has different lengths where you can use
+
+106
+0:03:30,000 -->  0:03:32,000
+ this sort of thing to actually work with it.
+
+107
+0:03:32,000 -->  0:03:34,000
+ quite effectively.
+
+108
+0:03:34,000 -->  0:03:36,000
+ I think that's a little known fact.
+
+109
+0:03:36,000 -->  0:03:38,000
+ and
+
+110
+0:03:38,000 -->  0:03:40,000
+ in the Wolfram language.
+
+111
+0:03:40,000 -->  0:03:42,000
+ Okay, so how do you construct a record?
+
+112
+0:03:42,000 -->  0:03:44,000
+ Well, I'm going to show a bunch of different ways
+
+113
+0:03:44,000 -->  0:03:46,000
+ during this talk.
+
+114
+0:03:46,000 -->  0:03:48,000
+ a few very obvious ways.
+
+115
+0:03:48,000 -->  0:03:50,000
+ obvious way is with the command array.
+
+116
+0:03:50,000 -->  0:03:52,000
+ That creates an array.
+
+117
+0:03:52,000 -->  0:03:54,000
+ And one all year.
+
+118
+0:03:54,000 -->  0:03:56,000
+ One I use a lot for testing.
+
+119
+0:03:56,000 -->  0:03:58,000
+ things or understanding how command
+
+120
+0:03:58,000 -->  0:04:00,000
+ work and
+
+121
+0:04:00,000 -->  0:04:02,000
+ Because I always forget the way
+
+122
+0:04:02,000 -->  0:04:04,000
+ transpose goes and things like
+
+123
+0:04:04,000 -->  0:04:06,000
+ that. That's just the mental
+
+124
+0:04:06,000 -->  0:04:08,000
+ block I have. So I created
+
+125
+0:04:08,000 -->  0:04:10,000
+ a symbolic array with
+
+126
+0:04:10,000 -->  0:04:12,000
+ indexed elements.
+
+127
+0:04:12,000 -->  0:04:14,000
+ And then you can kind of see how things work.
+
+128
+0:04:14,000 -->  0:04:16,000
+ work. Another super useful
+
+129
+0:04:16,000 -->  0:04:18,000
+ array for constructing
+
+130
+0:04:18,000 -->  0:04:20,000
+ things and putting things together.
+
+131
+0:04:20,000 -->  0:04:22,000
+ is a zero.
+
+132
+0:04:22,000 -->  0:04:24,000
+ This is actually a, this is a
+
+133
+0:04:24,000 -->  0:04:26,000
+ but it's a zero array.
+
+134
+0:04:26,000 -->  0:04:28,000
+ and types of
+
+135
+0:04:28,000 -->  0:04:30,000
+ zeros probably in a
+
+136
+0:04:30,000 -->  0:04:32,000
+ of stuff you've done don't seem very important.
+
+137
+0:04:32,000 -->  0:04:34,000
+ but as soon as you start using content
+
+138
+0:04:34,000 -->  0:04:36,000
+ compilation and try to
+
+139
+0:04:36,000 -->  0:04:38,000
+ to get things to run faster.
+
+140
+0:04:38,000 -->  0:04:40,000
+ the shape and structure of
+
+141
+0:04:40,000 -->  0:04:42,000
+ of a set of zeros becomes very
+
+142
+0:04:42,000 -->  0:04:44,000
+ important. So that's a
+
+143
+0:04:44,000 -->  0:04:46,000
+ really useful one. I can
+
+144
+0:04:46,000 -->  0:04:48,000
+ also make an array
+
+145
+0:04:48,000 -->  0:04:50,000
+ of arrays. Okay.
+
+146
+0:04:50,000 -->  0:04:52,000
+ Okay.
+
+147
+0:04:52,000 -->  0:04:54,000
+ of that constant array
+
+148
+0:04:54,000 -->  0:04:56,000
+ And if I do, you know,
+
+149
+0:04:56,000 -->  0:04:58,000
+ Dimensions of the
+
+150
+0:04:58,000 -->  0:05:00,000
+ that
+
+151
+0:05:00,000 -->  0:05:02,000
+ Then I get something which is
+
+152
+0:05:02,000 -->  0:05:04,000
+ Step five.
+
+153
+0:05:04,000 -->  0:05:06,000
+ It's the two-two or the first
+
+154
+0:05:06,000 -->  0:05:08,000
+ two dimensions and then the two three
+
+155
+0:05:08,000 -->  0:05:10,000
+ the dimensions of this
+
+156
+0:05:10,000 -->  0:05:12,000
+ symbolic array I put together before.
+
+157
+0:05:12,000 -->  0:05:14,000
+ And so you can kind of repeat that.
+
+158
+0:05:14,000 -->  0:05:16,000
+ you can have a repeated array.
+
+159
+0:05:16,000 -->  0:05:18,000
+ which in many cases can be
+
+160
+0:05:18,000 -->  0:05:20,000
+ can be useful for constructing code
+
+161
+0:05:20,000 -->  0:05:22,000
+ and doing things
+
+162
+0:05:22,000 -->  0:05:24,000
+ efficiently.
+
+163
+0:05:24,000 -->  0:05:26,000
+ Another thing I
+
+164
+0:05:26,000 -->  0:05:28,000
+ use all the time is just
+
+165
+0:05:28,000 -->  0:05:30,000
+ random integer, random real,
+
+166
+0:05:30,000 -->  0:05:32,000
+ random complex allows you to generate
+
+167
+0:05:32,000 -->  0:05:34,000
+ generate arrays of different
+
+168
+0:05:34,000 -->  0:05:36,000
+ of different types for testing.
+
+169
+0:05:36,000 -->  0:05:38,000
+ code and so random
+
+170
+0:05:38,000 -->  0:05:40,000
+ functions are
+
+171
+0:05:40,000 -->  0:05:42,000
+ really good constructor of arrays.
+
+172
+0:05:42,000 -->  0:05:44,000
+ lots of other constructors of array.
+
+173
+0:05:44,000 -->  0:05:46,000
+ then I'm not going to go to it. But if
+
+174
+0:05:46,000 -->  0:05:48,000
+ you want to construct an array
+
+175
+0:05:48,000 -->  0:05:50,000
+ which has different sorts of elements
+
+176
+0:05:50,000 -->  0:05:52,000
+ elements
+
+177
+0:05:52,000 -->  0:05:54,000
+ sort of a very common one is table.
+
+178
+0:05:54,000 -->  0:05:56,000
+ Okay, so I can do this.
+
+179
+0:05:56,000 -->  0:05:58,000
+ So this is kind of like that symbolic representation
+
+180
+0:05:58,000 -->  0:06:00,000
+ array I did before, but this is doing
+
+181
+0:06:00,000 -->  0:06:02,000
+ table. And I always
+
+182
+0:06:02,000 -->  0:06:04,000
+ get confused as to which
+
+183
+0:06:04,000 -->  0:06:06,000
+ index goes where.
+
+184
+0:06:06,000 -->  0:06:08,000
+ So it's actually the
+
+185
+0:06:08,000 -->  0:06:10,000
+ the outer index
+
+186
+0:06:10,000 -->  0:06:12,000
+ goes first and then
+
+187
+0:06:12,000 -->  0:06:14,000
+ the inner index.
+
+188
+0:06:14,000 -->  0:06:16,000
+ I'm addressing this as a
+
+189
+0:06:16,000 -->  0:06:18,000
+ So I make a table of these.
+
+190
+0:06:18,000 -->  0:06:20,000
+ of the
+
+191
+0:06:20,000 -->  0:06:22,000
+ minus three and then that.
+
+192
+0:06:22,000 -->  0:06:24,000
+ And and they're
+
+193
+0:06:24,000 -->  0:06:26,000
+ some, there can be some
+
+194
+0:06:26,000 -->  0:06:28,000
+ some cases some efficiency of using
+
+195
+0:06:28,000 -->  0:06:30,000
+ this table with the multiple
+
+196
+0:06:30,000 -->  0:06:32,000
+ indices because it's automatic.
+
+197
+0:06:32,000 -->  0:06:34,000
+ I don't know if it's automatically compiled,
+
+198
+0:06:34,000 -->  0:06:36,000
+ Pretty rarely is the case that it makes a huge difference
+
+199
+0:06:36,000 -->  0:06:38,000
+ huge difference.
+
+200
+0:06:38,000 -->  0:06:40,000
+ the story which I'll tell you
+
+201
+0:06:40,000 -->  0:06:42,000
+ eventually in this talk
+
+202
+0:06:42,000 -->  0:06:44,000
+ as I get farther will
+
+203
+0:06:44,000 -->  0:06:46,000
+ be that
+
+204
+0:06:46,000 -->  0:06:48,000
+ you know, if you can avoid
+
+205
+0:06:48,000 -->  0:06:50,000
+ avoid using table to construct things.
+
+206
+0:06:50,000 -->  0:06:52,000
+ or do operations, you're
+
+207
+0:06:52,000 -->  0:06:54,000
+ probably going to be better off. So
+
+208
+0:06:54,000 -->  0:06:56,000
+ Here's an example of a real table.
+
+209
+0:06:56,000 -->  0:06:58,000
+ Okay, this is the Chebyshev note.
+
+210
+0:06:58,000 -->  0:07:00,000
+ Okay.
+
+211
+0:07:00,000 -->  0:07:02,000
+ and I've just done of the
+
+212
+0:07:02,000 -->  0:07:04,000
+ fifth degree Chebyshev polynomial.
+
+213
+0:07:04,000 -->  0:07:06,000
+ And let's check.
+
+214
+0:07:06,000 -->  0:07:08,000
+ So we can check that
+
+215
+0:07:08,000 -->  0:07:10,000
+ these actually are nodes by doing
+
+216
+0:07:10,000 -->  0:07:12,000
+ the fall and we could do another table
+
+217
+0:07:12,000 -->  0:07:14,000
+ that iterates over the
+
+218
+0:07:14,000 -->  0:07:16,000
+ elements and a
+
+219
+0:07:16,000 -->  0:07:18,000
+ table syntax, it iterates over the elements
+
+220
+0:07:18,000 -->  0:07:20,000
+ of a vector
+
+221
+0:07:20,000 -->  0:07:22,000
+ And it'll always treat this as a vaccine.
+
+222
+0:07:22,000 -->  0:07:24,000
+ even if it's actually a deep
+
+223
+0:07:24,000 -->  0:07:26,000
+ So you'll get list elements.
+
+224
+0:07:26,000 -->  0:07:28,000
+ is I just
+
+225
+0:07:28,000 -->  0:07:30,000
+ give the variable
+
+226
+0:07:30,000 -->  0:07:32,000
+ And then instead of giving limits, I just give
+
+227
+0:07:32,000 -->  0:07:34,000
+ of the table. It's the list
+
+228
+0:07:34,000 -->  0:07:36,000
+ itself. Sure,
+
+229
+0:07:36,000 -->  0:07:38,000
+ enough, they come out to be exactly Z.
+
+230
+0:07:38,000 -->  0:07:40,000
+ 0.
+
+231
+0:07:40,000 -->  0:07:42,000
+ way of making a
+
+232
+0:07:42,000 -->  0:07:44,000
+ a an array
+
+233
+0:07:44,000 -->  0:07:46,000
+ which is often super useful
+
+234
+0:07:46,000 -->  0:07:48,000
+ is to use outer problems.
+
+235
+0:07:48,000 -->  0:07:50,000
+ And in this case, I'm doing this.
+
+236
+0:07:50,000 -->  0:07:52,000
+ just the same
+
+237
+0:07:52,000 -->  0:07:54,000
+ thing and I can
+
+238
+0:07:54,000 -->  0:07:56,000
+ to do a list plot of out.
+
+239
+0:07:56,000 -->  0:07:58,000
+ The trick is here that the dimensions of
+
+240
+0:07:58,000 -->  0:08:00,000
+ this are so they're
+
+241
+0:08:00,000 -->  0:08:02,000
+ And it mentions that a chevy-nep nodes for SIP
+
+242
+0:08:02,000 -->  0:08:04,000
+ because there
+
+243
+0:08:04,000 -->  0:08:06,000
+ you know, 6-6-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9-9
+
+244
+0:08:06,000 -->  0:08:08,000
+ nodes to the actually I think I
+
+245
+0:08:08,000 -->  0:08:10,000
+ an extra one that I didn't really need there.
+
+246
+0:08:10,000 -->  0:08:12,000
+ That's repeated.
+
+247
+0:08:12,000 -->  0:08:14,000
+ So it's 6-6. And then
+
+248
+0:08:14,000 -->  0:08:16,000
+ the inner dimension
+
+249
+0:08:16,000 -->  0:08:18,000
+ is this function while I'm creating a
+
+250
+0:08:18,000 -->  0:08:20,000
+ list.
+
+251
+0:08:20,000 -->  0:08:22,000
+ that makes an extra depth in
+
+252
+0:08:22,000 -->  0:08:24,000
+ the array.
+
+253
+0:08:24,000 -->  0:08:26,000
+ Now I want to talk about where do
+
+254
+0:08:26,000 -->  0:08:28,000
+ where do arrays appear?
+
+255
+0:08:28,000 -->  0:08:30,000
+ Okay. And it turns out that,
+
+256
+0:08:30,000 -->  0:08:32,000
+ that are raised are basically,
+
+257
+0:08:32,000 -->  0:08:34,000
+ And that's sort of the title of the talk.
+
+258
+0:08:34,000 -->  0:08:36,000
+ Rays everywhere. Okay.
+
+259
+0:08:36,000 -->  0:08:38,000
+ over the place.
+
+260
+0:08:38,000 -->  0:08:40,000
+ very large array image.
+
+261
+0:08:40,000 -->  0:08:42,000
+ Okay.
+
+262
+0:08:42,000 -->  0:08:44,000
+ I can do a ray cure
+
+263
+0:08:44,000 -->  0:08:46,000
+ of image data of image.
+
+264
+0:08:46,000 -->  0:08:48,000
+ the image data, it
+
+265
+0:08:48,000 -->  0:08:50,000
+ So the fundamental data behind this
+
+266
+0:08:50,000 -->  0:08:52,000
+ is, and you can actually
+
+267
+0:08:52,000 -->  0:08:54,000
+ actually get some more information
+
+268
+0:08:54,000 -->  0:08:56,000
+ by looking at the,
+
+269
+0:08:56,000 -->  0:08:58,000
+ image data
+
+270
+0:08:58,000 -->  0:09:00,000
+ And it turns out, so it's,
+
+271
+0:09:00,000 -->  0:09:02,000
+ So the image itself is $500.
+
+272
+0:09:02,000 -->  0:09:04,000
+ 177 by 1020.
+
+273
+0:09:04,000 -->  0:09:06,000
+ for pixels.
+
+274
+0:09:06,000 -->  0:09:08,000
+ And for each pixel, we have...
+
+275
+0:09:08,000 -->  0:09:10,000
+ three color channels and an alpha channel.
+
+276
+0:09:10,000 -->  0:09:12,000
+ And that's that four dimensions.
+
+277
+0:09:12,000 -->  0:09:14,000
+ inner dimension is
+
+278
+0:09:14,000 -->  0:09:16,000
+ is that alpha channel. And you can actually,
+
+279
+0:09:16,000 -->  0:09:18,000
+ we change how those dimensions
+
+280
+0:09:18,000 -->  0:09:20,000
+ by using the interleaving arm.
+
+281
+0:09:20,000 -->  0:09:22,000
+ option of image.
+
+282
+0:09:22,000 -->  0:09:24,000
+ So let's look at another example.
+
+283
+0:09:24,000 -->  0:09:26,000
+ Here's our favorite, Spy
+
+284
+0:09:26,000 -->  0:09:28,000
+ Um, so.
+
+285
+0:09:28,000 -->  0:09:30,000
+ And this
+
+286
+0:09:30,000 -->  0:09:32,000
+ doesn't look like an array at all.
+
+287
+0:09:32,000 -->  0:09:34,000
+ and it's true it's not an
+
+288
+0:09:34,000 -->  0:09:36,000
+ array, but the actual day
+
+289
+0:09:36,000 -->  0:09:38,000
+ which is used to plot that and
+
+290
+0:09:38,000 -->  0:09:40,000
+ stored in the polyhedron data is
+
+291
+0:09:40,000 -->  0:09:42,000
+ So the coordinate cycle is the same.
+
+292
+0:09:42,000 -->  0:09:44,000
+ which are the vertex groups,
+
+293
+0:09:44,000 -->  0:09:46,000
+ coordinates you see aren't a
+
+294
+0:09:46,000 -->  0:09:48,000
+ Okay.
+
+295
+0:09:48,000 -->  0:09:50,000
+ And I can actually play with it.
+
+296
+0:09:50,000 -->  0:09:52,000
+ this a little bit.
+
+297
+0:09:52,000 -->  0:09:54,000
+ and get the maximum of the value.
+
+298
+0:09:54,000 -->  0:09:56,000
+ value of the coordinates. So this goes up to two points.
+
+299
+0:09:56,000 -->  0:09:58,000
+ Okay.
+
+300
+0:09:58,000 -->  0:10:00,000
+ And then the cells,
+
+301
+0:10:00,000 -->  0:10:02,000
+ themselves are an array.
+
+302
+0:10:02,000 -->  0:10:04,000
+ actually the first element of the cells,
+
+303
+0:10:04,000 -->  0:10:06,000
+ and it turns out that
+
+304
+0:10:06,000 -->  0:10:08,000
+ that head of
+
+305
+0:10:08,000 -->  0:10:10,000
+ cells is going to be
+
+306
+0:10:10,000 -->  0:10:12,000
+ polygon. So these
+
+307
+0:10:12,000 -->  0:10:14,000
+ So it's showing the actual
+
+308
+0:10:14,000 -->  0:10:16,000
+ cells and this
+
+309
+0:10:16,000 -->  0:10:18,000
+ graphics thing are
+
+310
+0:10:18,000 -->  0:10:20,000
+ are polygons which give the faces.
+
+311
+0:10:20,000 -->  0:10:22,000
+ So what I'm going to do is I'm going to
+
+312
+0:10:22,000 -->  0:10:24,000
+ I'm going to play a little trick on spices.
+
+313
+0:10:24,000 -->  0:10:26,000
+ with these spiky with these arrays.
+
+314
+0:10:26,000 -->  0:10:28,000
+ by doing a
+
+315
+0:10:28,000 -->  0:10:30,000
+ a transformation. So I'm going to get
+
+316
+0:10:30,000 -->  0:10:32,000
+ So I made a mesh region.
+
+317
+0:10:32,000 -->  0:10:34,000
+ of that, which is going to be
+
+318
+0:10:34,000 -->  0:10:36,000
+ mesh region SPICe.
+
+319
+0:10:36,000 -->  0:10:38,000
+ I'm gonna get the cells.
+
+320
+0:10:38,000 -->  0:10:40,000
+ Okay. Now I'm going to, now what I'm
+
+321
+0:10:40,000 -->  0:10:42,000
+ going to do. And here's another way of
+
+322
+0:10:42,000 -->  0:10:44,000
+ affecting a transformation on a rate.
+
+323
+0:10:44,000 -->  0:10:46,000
+ So the coordinates in an array, when I
+
+324
+0:10:46,000 -->  0:10:48,000
+ What I'm saying is I'm going to map each element
+
+325
+0:10:48,000 -->  0:10:50,000
+ element of the coordinates
+
+326
+0:10:50,000 -->  0:10:52,000
+ So this works on the first level.
+
+327
+0:10:52,000 -->  0:10:54,000
+ So each quarter is going to be
+
+328
+0:10:54,000 -->  0:10:56,000
+ mapped by the coordinate time
+
+329
+0:10:56,000 -->  0:10:58,000
+ it's norm minus three.
+
+330
+0:10:58,000 -->  0:11:00,000
+ Okay.
+
+331
+0:11:00,000 -->  0:11:02,000
+ to change the shape of the
+
+332
+0:11:02,000 -->  0:11:04,000
+ coordinates, I'm going to basically remake
+
+333
+0:11:04,000 -->  0:11:06,000
+ the mesh region with new coordinates and I guess
+
+334
+0:11:06,000 -->  0:11:08,000
+ sort of a morphed
+
+335
+0:11:08,000 -->  0:11:10,000
+ spiky by this this
+
+336
+0:11:10,000 -->  0:11:12,000
+ operation. So this
+
+337
+0:11:12,000 -->  0:11:14,000
+ This is the first example, which I'm really doing
+
+338
+0:11:14,000 -->  0:11:16,000
+ operation on an array and
+
+339
+0:11:16,000 -->  0:11:18,000
+ And map is a really useful...
+
+340
+0:11:18,000 -->  0:11:20,000
+ one to do operations on a
+
+341
+0:11:20,000 -->  0:11:22,000
+ Ray, there are more, and I'm
+
+342
+0:11:22,000 -->  0:11:24,000
+ I'm going to show you ways to do operations
+
+343
+0:11:24,000 -->  0:11:26,000
+ of an array as I get farther than I talk much, much faster.
+
+344
+0:11:26,000 -->  0:11:28,000
+ Okay.
+
+345
+0:11:28,000 -->  0:11:30,000
+ This is a really simple one.
+
+346
+0:11:30,000 -->  0:11:32,000
+ I don't.
+
+347
+0:11:32,000 -->  0:11:34,000
+ do an ND solve. So
+
+348
+0:11:34,000 -->  0:11:36,000
+ all of these things are scalar. The,
+
+349
+0:11:36,000 -->  0:11:38,000
+ the variable is scalar, but the actual way we
+
+350
+0:11:38,000 -->  0:11:40,000
+ store the data for this is
+
+351
+0:11:40,000 -->  0:11:42,000
+ an array and you can see each
+
+352
+0:11:42,000 -->  0:11:44,000
+ element
+
+353
+0:11:44,000 -->  0:11:46,000
+ every third, every other element
+
+354
+0:11:46,000 -->  0:11:48,000
+ of the interpolating
+
+355
+0:11:48,000 -->  0:11:50,000
+ function is an array. If you look at this input
+
+356
+0:11:50,000 -->  0:11:52,000
+ form you can kind of see, well, the
+
+357
+0:11:52,000 -->  0:11:54,000
+ This is the dimensions.
+
+358
+0:11:54,000 -->  0:11:56,000
+ the limits, that's an array.
+
+359
+0:11:56,000 -->  0:11:58,000
+ These are the coordinates and
+
+360
+0:11:58,000 -->  0:12:00,000
+ And this is actually a special way of
+
+361
+0:12:00,000 -->  0:12:02,000
+ storing the actual data and so that
+
+362
+0:12:02,000 -->  0:12:04,000
+ it says packed and compacted.
+
+363
+0:12:04,000 -->  0:12:06,000
+ as possible. So again,
+
+364
+0:12:06,000 -->  0:12:08,000
+ Again, if you look inside of data,
+
+365
+0:12:08,000 -->  0:12:10,000
+ return to you. Typically, there
+
+366
+0:12:10,000 -->  0:12:12,000
+ there will be arrays and often you can translate
+
+367
+0:12:12,000 -->  0:12:14,000
+ transform those arrays to change
+
+368
+0:12:14,000 -->  0:12:16,000
+ the original object if you want.
+
+369
+0:12:16,000 -->  0:12:18,000
+ In some cases, it's recommended.
+
+370
+0:12:18,000 -->  0:12:20,000
+ it's not super recommended, but
+
+371
+0:12:20,000 -->  0:12:22,000
+ um
+
+372
+0:12:22,000 -->  0:12:24,000
+ Okay, so now let's talk about how
+
+373
+0:12:24,000 -->  0:12:26,000
+ arrays are represented.
+
+374
+0:12:26,000 -->  0:12:28,000
+ And this is probably the
+
+375
+0:12:28,000 -->  0:12:30,000
+ the key topic
+
+376
+0:12:30,000 -->  0:12:32,000
+ that you'll get something out of this whole
+
+377
+0:12:32,000 -->  0:12:34,000
+ Okay.
+
+378
+0:12:34,000 -->  0:12:36,000
+ Fundamental representation is a list
+
+379
+0:12:36,000 -->  0:12:38,000
+ of lists of possibly lists
+
+380
+0:12:38,000 -->  0:12:40,000
+ of lists, et cetera, et cetera. So,
+
+381
+0:12:40,000 -->  0:12:42,000
+ Let's just take a matrix.
+
+382
+0:12:42,000 -->  0:12:44,000
+ The full form is list to bliss.
+
+383
+0:12:44,000 -->  0:12:46,000
+ list of list. Okay.
+
+384
+0:12:46,000 -->  0:12:48,000
+ And if you go deeper, it's just...
+
+385
+0:12:48,000 -->  0:12:50,000
+ just nested that much deeper.
+
+386
+0:12:50,000 -->  0:12:52,000
+ enlist
+
+387
+0:12:52,000 -->  0:12:54,000
+ Okay. And these are, these are each,
+
+388
+0:12:54,000 -->  0:12:56,000
+ expressions or references to the elements.
+
+389
+0:12:56,000 -->  0:12:58,000
+ Okay.
+
+390
+0:12:58,000 -->  0:13:00,000
+ implicit and explicit, right?
+
+391
+0:13:00,000 -->  0:13:02,000
+ There's a packed array.
+
+392
+0:13:02,000 -->  0:13:04,000
+ representation, which is M
+
+393
+0:13:04,000 -->  0:13:06,000
+ implicit okay so that's sort of
+
+394
+0:13:06,000 -->  0:13:08,000
+ like, you know, the analogy for
+
+395
+0:13:08,000 -->  0:13:10,000
+ that is I've got a friend with a
+
+396
+0:13:10,000 -->  0:13:12,000
+ with a VWD
+
+397
+0:13:12,000 -->  0:13:14,000
+ W. Vanagon, okay, and
+
+398
+0:13:14,000 -->  0:13:16,000
+ And it looks like a Vanagon.
+
+399
+0:13:16,000 -->  0:13:18,000
+ It looks like one of the original ones.
+
+400
+0:13:18,000 -->  0:13:20,000
+ But somebody put a Ford engine
+
+401
+0:13:20,000 -->  0:13:22,000
+ in it. Okay. So it actually goes
+
+402
+0:13:22,000 -->  0:13:24,000
+ 60 on the highway instead of like 405.
+
+403
+0:13:24,000 -->  0:13:26,000
+ So,
+
+404
+0:13:26,000 -->  0:13:28,000
+ So under the hood, it's different.
+
+405
+0:13:28,000 -->  0:13:30,000
+ it actually looks the same externally.
+
+406
+0:13:30,000 -->  0:13:32,000
+ And that's what a path array is.
+
+407
+0:13:32,000 -->  0:13:34,000
+ Okay, now sparse arrays
+
+408
+0:13:34,000 -->  0:13:36,000
+ are explicit
+
+409
+0:13:36,000 -->  0:13:38,000
+ different.
+
+410
+0:13:38,000 -->  0:13:40,000
+ representations that I'll get into.
+
+411
+0:13:40,000 -->  0:13:42,000
+ An example of that is quantity array.
+
+412
+0:13:42,000 -->  0:13:44,000
+ Other examples which we're starting to add
+
+413
+0:13:44,000 -->  0:13:46,000
+ in development are structurally
+
+414
+0:13:46,000 -->  0:13:48,000
+ structure matrices such as permutation
+
+415
+0:13:48,000 -->  0:13:50,000
+ matrix block diagonal matrix.
+
+416
+0:13:50,000 -->  0:13:52,000
+ And then we have a final type,
+
+417
+0:13:52,000 -->  0:13:54,000
+ which is numeric array.
+
+418
+0:13:54,000 -->  0:13:56,000
+ This allows you to work
+
+419
+0:13:56,000 -->  0:13:58,000
+ with different types in the compiler
+
+420
+0:13:58,000 -->  0:14:00,000
+ say for a GPU.
+
+421
+0:14:00,000 -->  0:14:02,000
+ which might only support
+
+422
+0:14:02,000 -->  0:14:04,000
+ at 32-bit floats instead of 6.5.
+
+423
+0:14:04,000 -->  0:14:06,000
+ And I'll have an example.
+
+424
+0:14:06,000 -->  0:14:08,000
+ that uses numeric array.
+
+425
+0:14:08,000 -->  0:14:10,000
+ with the compiler eventually.
+
+426
+0:14:10,000 -->  0:14:12,000
+ So
+
+427
+0:14:12,000 -->  0:14:14,000
+ So let's look at packed array.
+
+428
+0:14:14,000 -->  0:14:16,000
+ So let's do Red Hat.
+
+429
+0:14:16,000 -->  0:14:18,000
+ This is a construction site.
+
+430
+0:14:18,000 -->  0:14:20,000
+ of only a vector, so it's yet another
+
+431
+0:14:20,000 -->  0:14:22,000
+ So this is, this is a,
+
+432
+0:14:22,000 -->  0:14:24,000
+ is a packed array queue. So let's look at the
+
+433
+0:14:24,000 -->  0:14:26,000
+ bite count, how much memory does that
+
+434
+0:14:26,000 -->  0:14:28,000
+ Okay.
+
+435
+0:14:28,000 -->  0:14:30,000
+ another way of doing
+
+436
+0:14:30,000 -->  0:14:32,000
+ I'm going to take table,
+
+437
+0:14:32,000 -->  0:14:34,000
+ Okay.
+
+438
+0:14:34,000 -->  0:14:36,000
+ And the bike, if I just do that table, even
+
+439
+0:14:36,000 -->  0:14:38,000
+ though the data itself is the same,
+
+440
+0:14:38,000 -->  0:14:40,000
+ Okay.
+
+441
+0:14:40,000 -->  0:14:42,000
+ the bite count is
+
+442
+0:14:42,000 -->  0:14:44,000
+ is almost three times more.
+
+443
+0:14:44,000 -->  0:14:46,000
+ And I can check that they're the same.
+
+444
+0:14:46,000 -->  0:14:48,000
+ okay so they're
+
+445
+0:14:48,000 -->  0:14:50,000
+ just like the look
+
+446
+0:14:50,000 -->  0:14:52,000
+ is the same.
+
+447
+0:14:52,000 -->  0:14:54,000
+ the actual storage on the system.
+
+448
+0:14:54,000 -->  0:14:56,000
+ is
+
+449
+0:14:56,000 -->  0:14:58,000
+ And you might ask, why doesn't table produce
+
+450
+0:14:58,000 -->  0:15:00,000
+ because everything's integer.
+
+451
+0:15:00,000 -->  0:15:02,000
+ is sort of a cryptic answer that
+
+452
+0:15:02,000 -->  0:15:04,000
+ I'll show us a plot, okay?
+
+453
+0:15:04,000 -->  0:15:06,000
+ well Avenge
+
+454
+0:15:06,000 -->  0:15:08,000
+ the bike counter table goes way
+
+455
+0:15:08,000 -->  0:15:10,000
+ down. And what happens is
+
+456
+0:15:10,000 -->  0:15:12,000
+ above a certain size and that
+
+457
+0:15:12,000 -->  0:15:14,000
+ limit actually happens to be 250.
+
+458
+0:15:14,000 -->  0:15:16,000
+ we auto-compile the technology
+
+459
+0:15:16,000 -->  0:15:18,000
+ when possible.
+
+460
+0:15:18,000 -->  0:15:20,000
+ the compiler to generate
+
+461
+0:15:20,000 -->  0:15:22,000
+ table and it not only generates it fast
+
+462
+0:15:22,000 -->  0:15:24,000
+ but it generates a packed array out of it.
+
+463
+0:15:24,000 -->  0:15:26,000
+ And so there are a number of
+
+464
+0:15:26,000 -->  0:15:28,000
+ You can look at
+
+465
+0:15:28,000 -->  0:15:30,000
+ If you look at compile options,
+
+466
+0:15:30,000 -->  0:15:32,000
+ a bunch of blah, blah, blah,
+
+467
+0:15:32,000 -->  0:15:34,000
+ including table compile links.
+
+468
+0:15:34,000 -->  0:15:36,000
+ that give these limits.
+
+469
+0:15:36,000 -->  0:15:38,000
+ And those can be quite useful.
+
+470
+0:15:38,000 -->  0:15:40,000
+ we've
+
+471
+0:15:40,000 -->  0:15:42,000
+ tried to set defaults that are appropriate.
+
+472
+0:15:42,000 -->  0:15:44,000
+ but sometimes you may want to change those.
+
+473
+0:15:44,000 -->  0:15:46,000
+ Okay.
+
+474
+0:15:46,000 -->  0:15:48,000
+ the rate conversions. So this
+
+475
+0:15:48,000 -->  0:15:50,000
+ developer two-factor
+
+476
+0:15:50,000 -->  0:15:52,000
+ array converts to a packed array.
+
+477
+0:15:52,000 -->  0:15:54,000
+ So if I have a mixed type,
+
+478
+0:15:54,000 -->  0:15:56,000
+ Okay.
+
+479
+0:15:56,000 -->  0:15:58,000
+ then I so so if
+
+480
+0:15:58,000 -->  0:16:00,000
+ if I take this UA
+
+481
+0:16:00,000 -->  0:16:02,000
+ So it has a...
+
+482
+0:16:02,000 -->  0:16:04,000
+ a real element in an
+
+483
+0:16:04,000 -->  0:16:06,000
+ integer element. Well, it doesn't pack on a
+
+484
+0:16:06,000 -->  0:16:08,000
+ but you can specify coercion.
+
+485
+0:16:08,000 -->  0:16:10,000
+ So if I say developer two-pack directories,
+
+486
+0:16:10,000 -->  0:16:12,000
+ I want to coerce to reel.
+
+487
+0:16:12,000 -->  0:16:14,000
+ It will go ahead and coerce to reel.
+
+488
+0:16:14,000 -->  0:16:16,000
+ and generate a packed array.
+
+489
+0:16:16,000 -->  0:16:18,000
+ Okay. And that's, um,
+
+490
+0:16:18,000 -->  0:16:20,000
+ next.
+
+491
+0:16:20,000 -->  0:16:22,000
+ And
+
+492
+0:16:22,000 -->  0:16:24,000
+ yeah, if I convert from PAC to RA,
+
+493
+0:16:24,000 -->  0:16:26,000
+ then it's not a packed rei anyway.
+
+494
+0:16:26,000 -->  0:16:28,000
+ anymore, it's ordinary representation.
+
+495
+0:16:28,000 -->  0:16:30,000
+ Okay, so let's take a
+
+496
+0:16:30,000 -->  0:16:32,000
+ bigger packed array of
+
+497
+0:16:32,000 -->  0:16:34,000
+ And let's compare. So we have a
+
+498
+0:16:34,000 -->  0:16:36,000
+ packed array and an unpacked
+
+499
+0:16:36,000 -->  0:16:38,000
+ array. And let's compare the
+
+500
+0:16:38,000 -->  0:16:40,000
+ I mean, um,
+
+501
+0:16:40,000 -->  0:16:42,000
+ And I almost always use repeat.
+
+502
+0:16:42,000 -->  0:16:44,000
+ We needed timing to compare timings
+
+503
+0:16:44,000 -->  0:16:46,000
+ Absolute timing usually doesn't
+
+504
+0:16:46,000 -->  0:16:48,000
+ get enough information with
+
+505
+0:16:48,000 -->  0:16:50,000
+ and the granularity.
+
+506
+0:16:50,000 -->  0:16:52,000
+ So repeated time
+
+507
+0:16:52,000 -->  0:16:54,000
+ I mean, there's a much more effective way to test time
+
+508
+0:16:54,000 -->  0:16:56,000
+ me. Okay, so here
+
+509
+0:16:56,000 -->  0:16:58,000
+ I
+
+510
+0:16:58,000 -->  0:17:00,000
+ I did an outer product.
+
+511
+0:17:00,000 -->  0:17:02,000
+ And if I do it with the packed arrays, it takes
+
+512
+0:17:02,000 -->  0:17:04,000
+ takes 10 times less time
+
+513
+0:17:04,000 -->  0:17:06,000
+ than doing it with the
+
+514
+0:17:06,000 -->  0:17:08,000
+ unpacked arrays just because of the way
+
+515
+0:17:08,000 -->  0:17:10,000
+ the operations were.
+
+516
+0:17:10,000 -->  0:17:12,000
+ So if you can use packed arrays,
+
+517
+0:17:12,000 -->  0:17:14,000
+ and operations like outer
+
+518
+0:17:14,000 -->  0:17:16,000
+ or other things,
+
+519
+0:17:16,000 -->  0:17:18,000
+ then you're going to have a much faster
+
+520
+0:17:18,000 -->  0:17:20,000
+ to the master code.
+
+521
+0:17:20,000 -->  0:17:22,000
+ And it gets even more extreme.
+
+522
+0:17:22,000 -->  0:17:24,000
+ So there are methods.
+
+523
+0:17:24,000 -->  0:17:26,000
+ Yeah.
+
+524
+0:17:26,000 -->  0:17:28,000
+ to see if an operation has to unpack
+
+525
+0:17:28,000 -->  0:17:30,000
+ actually works. So let's see.
+
+526
+0:17:30,000 -->  0:17:32,000
+ So I've got...
+
+527
+0:17:32,000 -->  0:17:34,000
+ unpacking gives this message.
+
+528
+0:17:34,000 -->  0:17:36,000
+ because it's telling it's unpacking. And also
+
+529
+0:17:36,000 -->  0:17:38,000
+ I would also say if I take map of some
+
+530
+0:17:38,000 -->  0:17:40,000
+ arbitrary function F over that packed array,
+
+531
+0:17:40,000 -->  0:17:42,000
+ Well, there's no way
+
+532
+0:17:42,000 -->  0:17:44,000
+ the PAC to raise only work for, for,
+
+533
+0:17:44,000 -->  0:17:46,000
+ fundamental machine types.
+
+534
+0:17:46,000 -->  0:17:48,000
+ f of 1 is not a
+
+535
+0:17:48,000 -->  0:17:50,000
+ fundamental machine type because it's sort
+
+536
+0:17:50,000 -->  0:17:52,000
+ an arbitrary function, so it has to
+
+537
+0:17:52,000 -->  0:17:54,000
+ So,
+
+538
+0:17:54,000 -->  0:17:56,000
+ The messages are super useful, but they're going to be
+
+539
+0:17:56,000 -->  0:17:58,000
+ irritating. So I'm going to turn them off for now.
+
+540
+0:17:58,000 -->  0:18:00,000
+ So I'm going to
+
+541
+0:18:00,000 -->  0:18:02,000
+ get to the next thing.
+
+542
+0:18:02,000 -->  0:18:04,000
+ Here's a sparse array.
+
+543
+0:18:04,000 -->  0:18:06,000
+ and
+
+544
+0:18:06,000 -->  0:18:08,000
+ You can always...
+
+545
+0:18:08,000 -->  0:18:10,000
+ So here we're talking about representations.
+
+546
+0:18:10,000 -->  0:18:12,000
+ explicit and it shows it as a
+
+547
+0:18:12,000 -->  0:18:14,000
+ sparse array. Okay, so
+
+548
+0:18:14,000 -->  0:18:16,000
+ So the dense version of this,
+
+549
+0:18:16,000 -->  0:18:18,000
+ is the normal
+
+550
+0:18:18,000 -->  0:18:20,000
+ norm of the sparse arrays. This is
+
+551
+0:18:20,000 -->  0:18:22,000
+ huge. It's kind of unwieldy
+
+552
+0:18:22,000 -->  0:18:24,000
+ to look at, so I'm gonna delete that.
+
+553
+0:18:24,000 -->  0:18:26,000
+ Okay.
+
+554
+0:18:26,000 -->  0:18:28,000
+ I can do an operation.
+
+555
+0:18:28,000 -->  0:18:30,000
+ now the
+
+556
+0:18:30,000 -->  0:18:32,000
+ basically for representation,
+
+557
+0:18:32,000 -->  0:18:34,000
+ representation, we say that, you know,
+
+558
+0:18:34,000 -->  0:18:36,000
+ the operation
+
+559
+0:18:36,000 -->  0:18:38,000
+ so that the sparse array
+
+560
+0:18:38,000 -->  0:18:40,000
+ it represents zero.
+
+561
+0:18:40,000 -->  0:18:42,000
+ So if you convert to normal,
+
+562
+0:18:42,000 -->  0:18:44,000
+ be the same.
+
+563
+0:18:44,000 -->  0:18:46,000
+ the actual objects are not the same.
+
+564
+0:18:46,000 -->  0:18:48,000
+ So they're not same queue.
+
+565
+0:18:48,000 -->  0:18:50,000
+ So what's the advantage of this?
+
+566
+0:18:50,000 -->  0:18:52,000
+ sparse arrays? Well, again, it
+
+567
+0:18:52,000 -->  0:18:54,000
+ It takes a lot less memory to use.
+
+568
+0:18:54,000 -->  0:18:56,000
+ And there are many tasks
+
+569
+0:18:56,000 -->  0:18:58,000
+ that are super effective
+
+570
+0:18:58,000 -->  0:19:00,000
+ effective.
+
+571
+0:19:00,000 -->  0:19:02,000
+ a linear algebra example.
+
+572
+0:19:02,000 -->  0:19:04,000
+ again, I use
+
+573
+0:19:04,000 -->  0:19:06,000
+ repeated timing. So,
+
+574
+0:19:06,000 -->  0:19:08,000
+ The sparse array is very,
+
+575
+0:19:08,000 -->  0:19:10,000
+ slightly faster.
+
+576
+0:19:10,000 -->  0:19:12,000
+ bigger size.
+
+577
+0:19:12,000 -->  0:19:14,000
+ with the same thing.
+
+578
+0:19:14,000 -->  0:19:16,000
+ Now, this is a particularly simple case,
+
+579
+0:19:16,000 -->  0:19:18,000
+ very advantageous to the sparse arithmetic.
+
+580
+0:19:18,000 -->  0:19:20,000
+ Now I'm
+
+581
+0:19:20,000 -->  0:19:22,000
+ I'm getting, you know, like almost
+
+582
+0:19:22,000 -->  0:19:24,000
+ several hundred times
+
+583
+0:19:24,000 -->  0:19:26,000
+ faster with a sparse array.
+
+584
+0:19:26,000 -->  0:19:28,000
+ So, um,
+
+585
+0:19:28,000 -->  0:19:30,000
+ so 200
+
+586
+0:19:30,000 -->  0:19:32,000
+ 250 times faster using the sparse
+
+587
+0:19:32,000 -->  0:19:34,000
+ array. So for,
+
+588
+0:19:34,000 -->  0:19:36,000
+ linear algebra tasks like
+
+589
+0:19:36,000 -->  0:19:38,000
+ and efficient solving.
+
+590
+0:19:38,000 -->  0:19:40,000
+ and the solvers that work on those.
+
+591
+0:19:40,000 -->  0:19:42,000
+ So there's a representation.
+
+592
+0:19:42,000 -->  0:19:44,000
+ contract and I'm explaining this for
+
+593
+0:19:44,000 -->  0:19:46,000
+ sparse, but this is general for these things.
+
+594
+0:19:46,000 -->  0:19:48,000
+ that we call array representations.
+
+595
+0:19:48,000 -->  0:19:50,000
+ The idea is that normal,
+
+596
+0:19:50,000 -->  0:19:52,000
+ of some operation of the
+
+597
+0:19:52,000 -->  0:19:54,000
+ sparse array is equal to the
+
+598
+0:19:54,000 -->  0:19:56,000
+ operation of normal
+
+599
+0:19:56,000 -->  0:19:58,000
+ of sparse arrays.
+
+600
+0:19:58,000 -->  0:20:00,000
+ Okay. Now, occasionally I use e-mail.
+
+601
+0:20:00,000 -->  0:20:02,000
+ equal versus the same.
+
+602
+0:20:02,000 -->  0:20:04,000
+ Because sometimes
+
+603
+0:20:04,000 -->  0:20:06,000
+ like with numerical stuff, the error,
+
+604
+0:20:06,000 -->  0:20:08,000
+ All of them are different. So the air may be
+
+605
+0:20:08,000 -->  0:20:10,000
+ slightly different. But typically, this will be
+
+606
+0:20:10,000 -->  0:20:12,000
+ the case. Okay. And here's two
+
+607
+0:20:12,000 -->  0:20:14,000
+ examples of that.
+
+608
+0:20:14,000 -->  0:20:16,000
+ thing to keep in mind.
+
+609
+0:20:16,000 -->  0:20:18,000
+ So basically the operations
+
+610
+0:20:18,000 -->  0:20:20,000
+ are effectively the same. They may be
+
+611
+0:20:20,000 -->  0:20:22,000
+ done differently. They may be done more efficiently.
+
+612
+0:20:22,000 -->  0:20:24,000
+ Okay.
+
+613
+0:20:24,000 -->  0:20:26,000
+ So, these are structured representations.
+
+614
+0:20:26,000 -->  0:20:28,000
+ new thing. Um,
+
+615
+0:20:28,000 -->  0:20:30,000
+ They're different
+
+616
+0:20:30,000 -->  0:20:32,000
+ representations based on structures.
+
+617
+0:20:32,000 -->  0:20:34,000
+ So again, the structure
+
+618
+0:20:34,000 -->  0:20:36,000
+ There's another array queue, array depth, dimension.
+
+619
+0:20:36,000 -->  0:20:38,000
+ all work and again this
+
+620
+0:20:38,000 -->  0:20:40,000
+ same contract. They operate
+
+621
+0:20:40,000 -->  0:20:42,000
+ normal.
+
+622
+0:20:42,000 -->  0:20:44,000
+ And when there's a special algorithm for operations,
+
+623
+0:20:44,000 -->  0:20:46,000
+ It's used otherwise the representation
+
+624
+0:20:46,000 -->  0:20:48,000
+ is typically converted to a different
+
+625
+0:20:48,000 -->  0:20:50,000
+ representation for which there is an
+
+626
+0:20:50,000 -->  0:20:52,000
+ So let's look at
+
+627
+0:20:52,000 -->  0:20:54,000
+ an example.
+
+628
+0:20:54,000 -->  0:20:56,000
+ So let's construct the quantity
+
+629
+0:20:56,000 -->  0:20:58,000
+ array. Okay. And this is,
+
+630
+0:20:58,000 -->  0:21:00,000
+ This is just kind of an
+
+631
+0:21:00,000 -->  0:21:02,000
+ ordinary ray underneath
+
+632
+0:21:02,000 -->  0:21:04,000
+ but the quantities are separate. So,
+
+633
+0:21:04,000 -->  0:21:06,000
+ it's more
+
+634
+0:21:06,000 -->  0:21:08,000
+ efficient. Here's the normal representation.
+
+635
+0:21:08,000 -->  0:21:10,000
+ presentation.
+
+636
+0:21:10,000 -->  0:21:12,000
+ of meters and then seconds.
+
+637
+0:21:12,000 -->  0:21:14,000
+ So the
+
+638
+0:21:14,000 -->  0:21:16,000
+ Big advantage of quant, one big advantage of quant
+
+639
+0:21:16,000 -->  0:21:18,000
+ It's big memory savings.
+
+640
+0:21:18,000 -->  0:21:20,000
+ So it's basically a factor of more than 10.
+
+641
+0:21:20,000 -->  0:21:22,000
+ and memory savings
+
+642
+0:21:22,000 -->  0:21:24,000
+ And then if there's a special algorithm,
+
+643
+0:21:24,000 -->  0:21:26,000
+ there's a huge time saving.
+
+644
+0:21:26,000 -->  0:21:28,000
+ Okay, so here's another example.
+
+645
+0:21:28,000 -->  0:21:30,000
+ So
+
+646
+0:21:30,000 -->  0:21:32,000
+ The quantity array takes
+
+647
+0:21:32,000 -->  0:21:34,000
+ is 2020
+
+648
+0:21:34,000 -->  0:21:36,000
+ times faster. Now notice the quantity
+
+649
+0:21:36,000 -->  0:21:38,000
+ Quantity rate thing comes out as a quantity rate.
+
+650
+0:21:38,000 -->  0:21:40,000
+ so it has this more efficient storage.
+
+651
+0:21:40,000 -->  0:21:42,000
+ versus if I do the operation on the ordinary,
+
+652
+0:21:42,000 -->  0:21:44,000
+ Ray, I get the list.
+
+653
+0:21:44,000 -->  0:21:46,000
+ So again, it that
+
+654
+0:21:46,000 -->  0:21:48,000
+ Depends what you want. But if you look at
+
+655
+0:21:48,000 -->  0:21:50,000
+ these times.
+
+656
+0:21:50,000 -->  0:21:52,000
+ Now numeric array is
+
+657
+0:21:52,000 -->  0:21:54,000
+ is another type.
+
+658
+0:21:54,000 -->  0:21:56,000
+ So here I can use integer 8
+
+659
+0:21:56,000 -->  0:21:58,000
+ bit integers type.
+
+660
+0:21:58,000 -->  0:22:00,000
+ If I do normal, I get a pack to
+
+661
+0:22:00,000 -->  0:22:02,000
+ Ray.
+
+662
+0:22:02,000 -->  0:22:04,000
+ So this again gives you
+
+663
+0:22:04,000 -->  0:22:06,000
+ memory savings.
+
+664
+0:22:06,000 -->  0:22:08,000
+ The trick about numerical arrays is
+
+665
+0:22:08,000 -->  0:22:10,000
+ They're not considered a railroad.
+
+666
+0:22:10,000 -->  0:22:12,000
+ representations. They're special and
+
+667
+0:22:12,000 -->  0:22:14,000
+ interface to the compiler and
+
+668
+0:22:14,000 -->  0:22:16,000
+ things like GPUs. So we
+
+669
+0:22:16,000 -->  0:22:18,000
+ don't map and we actually
+
+670
+0:22:18,000 -->  0:22:20,000
+ give a slightly
+
+671
+0:22:20,000 -->  0:22:22,000
+ useful message saying we don't do traverse
+
+672
+0:22:22,000 -->  0:22:24,000
+ Okay.
+
+673
+0:22:24,000 -->  0:22:26,000
+ So this,
+
+674
+0:22:26,000 -->  0:22:28,000
+ is a big part of
+
+675
+0:22:28,000 -->  0:22:30,000
+ of working with arrays.
+
+676
+0:22:30,000 -->  0:22:32,000
+ I'm going to give a bunch of examples.
+
+677
+0:22:32,000 -->  0:22:34,000
+ arithmetic worked.
+
+678
+0:22:34,000 -->  0:22:36,000
+ So if I take two matrices I made
+
+679
+0:22:36,000 -->  0:22:38,000
+ symbolic if I add those
+
+680
+0:22:38,000 -->  0:22:40,000
+ it does it element wise.
+
+681
+0:22:40,000 -->  0:22:42,000
+ Okay. Here.
+
+682
+0:22:42,000 -->  0:22:44,000
+ And if I add a vector to that,
+
+683
+0:22:44,000 -->  0:22:46,000
+ It adds
+
+684
+0:22:46,000 -->  0:22:48,000
+ the elements of the vectors by
+
+685
+0:22:48,000 -->  0:22:50,000
+ row element wise.
+
+686
+0:22:50,000 -->  0:22:52,000
+ Okay, now this doesn't work.
+
+687
+0:22:52,000 -->  0:22:54,000
+ This case doesn't work with at length four.
+
+688
+0:22:54,000 -->  0:22:56,000
+ because the way that...
+
+689
+0:22:56,000 -->  0:22:58,000
+ that the default arithmetic works
+
+690
+0:22:58,000 -->  0:23:00,000
+ is from the top down.
+
+691
+0:23:00,000 -->  0:23:02,000
+ Engines have to match from the top down.
+
+692
+0:23:02,000 -->  0:23:04,000
+ Now we've added recently a new thing
+
+693
+0:23:04,000 -->  0:23:06,000
+ and I suggest you look up the
+
+694
+0:23:06,000 -->  0:23:08,000
+ documentation for this. It's a nice example.
+
+695
+0:23:08,000 -->  0:23:10,000
+ So threaded and what we're doing
+
+696
+0:23:10,000 -->  0:23:12,000
+ And what this does is this says, OK,
+
+697
+0:23:12,000 -->  0:23:14,000
+ I want to work from the bottom level
+
+698
+0:23:14,000 -->  0:23:16,000
+ of the array.
+
+699
+0:23:16,000 -->  0:23:18,000
+ And so it's,
+
+700
+0:23:18,000 -->  0:23:20,000
+ it adds a V to
+
+701
+0:23:20,000 -->  0:23:22,000
+ each of the columns versus
+
+702
+0:23:22,000 -->  0:23:24,000
+ is adding it to the rows here.
+
+703
+0:23:24,000 -->  0:23:26,000
+ So this threaded wire
+
+704
+0:23:26,000 -->  0:23:28,000
+ wrapper allows you to do
+
+705
+0:23:28,000 -->  0:23:30,000
+ which before were somewhat intangible.
+
+706
+0:23:30,000 -->  0:23:32,000
+ and convenient. Okay. So the,
+
+707
+0:23:32,000 -->  0:23:34,000
+ And the way this all works is through this
+
+708
+0:23:34,000 -->  0:23:36,000
+ attribute called listability.
+
+709
+0:23:36,000 -->  0:23:38,000
+ Okay. And I can set a
+
+710
+0:23:38,000 -->  0:23:40,000
+ function to have the list of atrophy.
+
+711
+0:23:40,000 -->  0:23:42,000
+ that thing. It applies effectively
+
+712
+0:23:42,000 -->  0:23:44,000
+ to the elements.
+
+713
+0:23:44,000 -->  0:23:46,000
+ OK, and again, I can do
+
+714
+0:23:46,000 -->  0:23:48,000
+ you know, threaded V4
+
+715
+0:23:48,000 -->  0:23:50,000
+ it applies to the elements.
+
+716
+0:23:50,000 -->  0:23:52,000
+ Now, there's a huge
+
+717
+0:23:52,000 -->  0:23:54,000
+ number of commands that are listable.
+
+718
+0:23:54,000 -->  0:23:56,000
+ basically all the arithmetic,
+
+719
+0:23:56,000 -->  0:23:58,000
+ You know, blah, blah, blah, blah, blah.
+
+720
+0:23:58,000 -->  0:24:00,000
+ and that's a useful list to look
+
+721
+0:24:00,000 -->  0:24:02,000
+ at if you want to get an idea of what
+
+722
+0:24:02,000 -->  0:24:04,000
+ So let's look at this Chebyshev nodes that
+
+723
+0:24:04,000 -->  0:24:06,000
+ example again. Okay, now I've
+
+724
+0:24:06,000 -->  0:24:08,000
+ made them numerical so that
+
+725
+0:24:08,000 -->  0:24:10,000
+ So there's even a fair comparison.
+
+726
+0:24:10,000 -->  0:24:12,000
+ Okay, this takes a little bit.
+
+727
+0:24:12,000 -->  0:24:14,000
+ So here I am.
+
+728
+0:24:14,000 -->  0:24:16,000
+ I've done the Chebyshev nodes by using a
+
+729
+0:24:16,000 -->  0:24:18,000
+ So the listable speech,
+
+730
+0:24:18,000 -->  0:24:20,000
+ is tremendous.
+
+731
+0:24:20,000 -->  0:24:22,000
+ us. So you're getting factors like
+
+732
+0:24:22,000 -->  0:24:24,000
+ 30 to 30 by you.
+
+733
+0:24:24,000 -->  0:24:26,000
+ using the listable operation
+
+734
+0:24:26,000 -->  0:24:28,000
+ versus the
+
+735
+0:24:28,000 -->  0:24:30,000
+ the other operation.
+
+736
+0:24:30,000 -->  0:24:32,000
+ Thank you.
+
+737
+0:24:32,000 -->  0:24:34,000
+ you
+
+738
+0:24:34,000 -->  0:24:36,000
+ you
+
+739
+0:24:36,000 -->  0:24:38,000
+ you
+
+740
+0:24:38,000 -->  0:24:40,000
+ you
+
+741
+0:24:40,000 -->  0:24:42,000
+ you
+
+742
+0:24:42,000 -->  0:24:44,000
+ you
+
+743
+0:24:44,000 -->  0:24:46,000
+ you
+
+744
+0:24:46,000 -->  0:24:48,000
+ you
+
+745
+0:24:48,000 -->  0:24:50,000
+ you
+
+746
+0:24:50,000 -->  0:24:52,000
+ you
+
+747
+0:24:52,000 -->  0:24:54,000
+ you
+
